@@ -1,0 +1,25 @@
+{
+	"name": "devcamper",
+	"version": "1.0.0",
+	"description": "DevCamper Backend API",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server",
+		"dev": "nodemon server"
+	},
+	"keywords": [
+		"nodejs",
+		"express",
+		"mongodb",
+		"restapi"
+	],
+	"author": "Komil Sobitov",
+	"license": "MIT",
+	"dependencies": {
+		"dotenv": "^16.0.1",
+		"express": "^4.18.1"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.19"
+	}
+}
