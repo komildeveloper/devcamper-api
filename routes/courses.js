@@ -6,7 +6,7 @@ const {
 	getCourse,
 	addCourse,
 	updateCourse,
-  deleteCourse
+	deleteCourse
 } = require('../controllers/courses')
 
 router.route('/').get(getCourses).post(addCourse)
